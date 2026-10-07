@@ -1,0 +1,29 @@
+{
+  "seed": 42,
+  "clean_orders_generated": 12000,
+  "injected": {
+    "missing order_id": 48,
+    "missing order_date": 115,
+    "missing customer_id": 370,
+    "missing region": 484,
+    "missing product": 143,
+    "missing quantity": 246,
+    "missing unit_price": 213,
+    "missing cost_price": 356,
+    "missing discount_pct": 619,
+    "missing payment_method": 232,
+    "missing payment_status": 132,
+    "missing customer_rating": 3029,
+    "unit_price x10 outlier": 47,
+    "negative unit_price": 14,
+    "quantity outlier (50/99/100)": 23,
+    "quantity zero/negative": 44,
+    "discount outside 0-100": 30,
+    "order_date typo (year +27, in the future)": 17,
+    "exact duplicate rows": 300,
+    "near-duplicate rows (same values, different formatting)": 120
+  },
+  "expected_unusable_orders_to_drop": 178,
+  "expected_clean_rows": 11822,
+  "raw_rows": 12420
+}

@@ -1,13 +1,36 @@
-# KPI Dictionary & Data Quality Contract: Retail Orders
+# Data Ingestion, Cleaning & Preprocessing with Pandas
 
-| File | What it is |
+Cleaning a messy 12,420-row e-commerce order extract (13 columns, INR, 2023-2025) into a standardized 11,822-row dataset.
+
+> **Note:** the dataset is **synthetic**. `dataset_generation.py` (seeded) injects realistic defects at known rates, so the notebook's result can be verified against `generation_log.json`.
+
+| File | Purpose |
 |---|---|
-| `kpi_dictionary.xlsx` | KPI dictionary (10 KPIs: formula, grain, filters, owner, refresh cadence) plus DQ check catalog and live-formula KPI verification |
-| `data_profile_notebook.ipynb` | Executable data profile: 18 checks across completeness, uniqueness, validity, consistency, freshness; cleaning; KPI calculation |
-| `data_quality_contract.md` | Quality contract: thresholds, severities, escalation actions, remediation rules |
-| `retail-orders-raw.csv`, `retail-data-dictionary.csv` | Input data and its dictionary |
-| `dq_results.csv`, `clean_orders.csv`, `quarantine_orders.csv`, `kpi_values.csv` | Outputs written by the notebook |
+| `data_cleaning.ipynb` | Main deliverable: executed notebook with before/after profile, every cleaning decision explained, validation checks, charts |
+| `clean_dataset.csv` | Cleaned output (11,822 rows, 31 columns incl. engineered features and `*_imputed` flags) |
+| `raw_retail_sales.csv` | Raw input (12,420 rows) |
+| `dataset_generation.py`, `generation_log.json` | Generator and ground-truth log for the synthetic data |
 
-**Run:** `pip install pandas jupyter`, then `jupyter nbconvert --to notebook --execute data_profile_notebook.ipynb` (CSV files must sit next to the notebook).
+## What was fixed
+| Problem | Raw | Clean |
+|---|---|---|
+| Duplicate rows (exact + re-typed) | 420 | 0 |
+| Missing values in key columns / impossible dates | 178 rows dropped | 0 |
+| Missing values elsewhere (rows affected, excl. rating) | 2,746 | 0 (imputed and flagged) |
+| Text in numeric columns (`Rs. 1299`, `10%`, `two`) | 7,895 cells | 0 |
+| Date formats | 5 | 1 |
+| Spellings of category / region / payment method / status | 23 / 25 / 21 / 20 | 5 / 5 / 5 / 4 |
+| Impossible quantities, discounts, price outliers | 65 / 30 / 61 | 0 |
 
-**Headline result:** 12 of 18 checks fail (7 at P1), the extract is 260 days stale, and only 6 of 11 distinct orders are KPI-ready, so the contract verdict is BLOCK.
+## Features engineered
+`year, month, month_name, quarter, year_month, day_of_week, is_weekend, gross_amount, discount_amount, revenue, total_cost, profit, profit_margin_pct, counts_as_revenue`
+
+## Run
+```bash
+pip install pandas numpy matplotlib jupyter
+jupyter nbconvert --to notebook --execute data_cleaning.ipynb
+```
+(keep `raw_retail_sales.csv` and `generation_log.json` next to the notebook)
+
+## Assumptions to review
+Blank discount = 0 (flagged); dates are DD/MM/YYYY; quantity above 10 is an entry error; only `Paid` orders count as revenue; `customer_rating` is left empty (25% missing) rather than invented.
