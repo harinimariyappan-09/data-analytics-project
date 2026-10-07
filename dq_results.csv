@@ -1,0 +1,19 @@
+check_id,dimension,rule,column,rows_failed,metric,unit,threshold,severity,status
+C1,Completeness,order_date is not null,order_date,1.0,0.0833,rate,0.0,P1,FAIL
+C2,Completeness,city is not null,city,1.0,0.0833,rate,0.02,P2,FAIL
+C3,Completeness,discount_pct is not null (missing is not assumed to be 0),discount_pct,1.0,0.0833,rate,0.0,P2,FAIL
+C4,Completeness,all other required columns are not null,"order_id, customer_segment, category, quantity, unit_price, payment_status",0.0,0.0,rate,0.0,P1,PASS
+U1,Uniqueness,order_id appears once,order_id,1.0,0.0833,rate,0.0,P1,FAIL
+U2,Uniqueness,no fully duplicated rows,all columns,1.0,0.0833,rate,0.0,P1,FAIL
+V1,Validity,ISO-formatted order_date is a real date between 2025-01-01 and today,order_date,1.0,0.0833,rate,0.0,P1,FAIL
+V2,Validity,quantity is a whole number > 0,quantity,2.0,0.1667,rate,0.0,P1,FAIL
+V3,Validity,unit_price is a non-negative number,unit_price,0.0,0.0,rate,0.0,P1,PASS
+V4,Validity,discount_pct is between 0 and 100,discount_pct,1.0,0.0833,rate,0.0,P1,FAIL
+V5,Validity,category is one of the 3 allowed products,category,0.0,0.0,rate,0.0,P2,PASS
+V6,Validity,segment and payment_status map to an allowed value after normalization,"customer_segment, payment_status",0.0,0.0,rate,0.0,P2,PASS
+K1,Consistency,customer_segment uses canonical casing,customer_segment,1.0,0.0833,rate,0.0,P3,FAIL
+K2,Consistency,payment_status uses canonical casing,payment_status,1.0,0.0833,rate,0.0,P3,FAIL
+K3,Consistency,order_date uses one format (YYYY-MM-DD),order_date,1.0,0.0833,rate,0.0,P2,FAIL
+K4,Consistency,each category has a single unit_price,"category, unit_price",0.0,0.0,rate,0.0,P2,PASS
+K5,Consistency,no order_id has conflicting versions,order_id,0.0,0.0,rate,0.0,P1,PASS
+F1,Freshness,newest order is at most 2 days old,order_date,,260.0,days,2.0,P1,FAIL

@@ -1,0 +1,11 @@
+kpi,value_on_clean_sample
+KPI-01 Order Count,6.0
+KPI-02 Gross Merchandise Value (INR),9291.0
+KPI-03 Discount Amount (INR),729.35
+KPI-04 Discount Rate,0.0785
+KPI-05 Net Revenue (INR),6013.35
+KPI-06 Average Order Value (INR),1503.3375
+KPI-07 Units per Order,1.75
+KPI-08 Payment Success Rate,0.8
+KPI-09 Refund Rate,0.2
+KPI-10 Data Quality Pass Rate,0.5455

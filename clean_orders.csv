@@ -1,0 +1,7 @@
+order_id,order_date,customer_segment,city,category,quantity,unit_price,discount_pct,payment_status,repair_note
+RT-1001,2026-01-03,Student,Chennai,Learning Kit,2,799.0,10.0,Paid,
+RT-1002,2026-01-03,Fresher,Bengaluru,Course Access,1,1499.0,0.0,Paid,date repaired from DD/MM/YYYY
+RT-1004,2026-01-07,Professional,Hyderabad,Learning Kit,3,799.0,5.0,Paid,
+RT-1005,2026-01-09,Fresher,,Mentor Session,1,999.0,0.0,Failed,city missing (non-blocking)
+RT-1009,2026-01-16,Student,Chennai,Learning Kit,1,799.0,0.0,Paid,
+RT-1010,2026-01-18,Professional,Delhi,Course Access,2,1499.0,15.0,Refunded,
