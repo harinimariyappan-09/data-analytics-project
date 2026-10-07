@@ -1,36 +1,26 @@
-# Data Ingestion, Cleaning & Preprocessing with Pandas
+# Data Analytics Projects
 
-Cleaning a messy 12,420-row e-commerce order extract (13 columns, INR, 2023-2025) into a standardized 11,822-row dataset.
+## Task 2: KPI Dictionary & Data Quality Contract (retail orders)
+| File | Purpose |
+|---|---|
+| `kpi_dictionary.xlsx` | 10 KPIs with formula, grain, filters, owner, refresh cadence; DQ check catalog; live-formula verification |
+| `data_profile_notebook.ipynb` | Executable data profile: 18 checks across completeness, uniqueness, validity, consistency, freshness |
+| `data_quality_contract.md` | Thresholds, severity levels, escalation actions |
+| `retail-orders-raw.csv`, `retail-data-dictionary.csv` | Input data |
+| `dq_results.csv`, `clean_orders.csv`, `quarantine_orders.csv`, `kpi_values.csv` | Notebook outputs |
 
-> **Note:** the dataset is **synthetic**. `dataset_generation.py` (seeded) injects realistic defects at known rates, so the notebook's result can be verified against `generation_log.json`.
+Result: 12 of 18 checks fail (7 at P1), data is 260 days stale, only 6 of 11 distinct orders are KPI-ready, so the contract verdict is BLOCK.
+
+## Task 3: Data Ingestion, Cleaning & Preprocessing with Pandas
+Cleans a messy 12,420-row e-commerce extract into 11,822 standardized rows. The dataset is **synthetic**, generated with known defects so the result can be verified.
 
 | File | Purpose |
 |---|---|
-| `data_cleaning.ipynb` | Main deliverable: executed notebook with before/after profile, every cleaning decision explained, validation checks, charts |
-| `clean_dataset.csv` | Cleaned output (11,822 rows, 31 columns incl. engineered features and `*_imputed` flags) |
-| `raw_retail_sales.csv` | Raw input (12,420 rows) |
-| `dataset_generation.py`, `generation_log.json` | Generator and ground-truth log for the synthetic data |
+| `data_cleaning.ipynb` | Executed notebook: before/after profile, cleaning decisions, validation, charts |
+| `clean_dataset.csv` | Cleaned output (31 columns incl. engineered features) |
+| `raw_retail_sales.csv` | Raw input |
+| `dataset_generation.py`, `generation_log.json` | Generator and ground-truth log |
 
-## What was fixed
-| Problem | Raw | Clean |
-|---|---|---|
-| Duplicate rows (exact + re-typed) | 420 | 0 |
-| Missing values in key columns / impossible dates | 178 rows dropped | 0 |
-| Missing values elsewhere (rows affected, excl. rating) | 2,746 | 0 (imputed and flagged) |
-| Text in numeric columns (`Rs. 1299`, `10%`, `two`) | 7,895 cells | 0 |
-| Date formats | 5 | 1 |
-| Spellings of category / region / payment method / status | 23 / 25 / 21 / 20 | 5 / 5 / 5 / 4 |
-| Impossible quantities, discounts, price outliers | 65 / 30 / 61 | 0 |
+Fixed: 420 duplicates, 7,895 text-in-number cells, 5 date formats, 20+ spellings per category, impossible quantities/discounts/prices, missing values (imputed and flagged).
 
-## Features engineered
-`year, month, month_name, quarter, year_month, day_of_week, is_weekend, gross_amount, discount_amount, revenue, total_cost, profit, profit_margin_pct, counts_as_revenue`
-
-## Run
-```bash
-pip install pandas numpy matplotlib jupyter
-jupyter nbconvert --to notebook --execute data_cleaning.ipynb
-```
-(keep `raw_retail_sales.csv` and `generation_log.json` next to the notebook)
-
-## Assumptions to review
-Blank discount = 0 (flagged); dates are DD/MM/YYYY; quantity above 10 is an entry error; only `Paid` orders count as revenue; `customer_rating` is left empty (25% missing) rather than invented.
+**Run:** `pip install pandas numpy matplotlib jupyter`, then execute the notebooks with the CSV files in the same folder.
