@@ -27,3 +27,14 @@ Cleans a messy 12,420-row e-commerce extract into 11,822 standardized rows. The 
 
 ## How to run
 Install: `pip install pandas numpy matplotlib jupyter`. Keep the CSV files in the same folder as the notebooks, then run `jupyter nbconvert --to notebook --execute data_profile_notebook.ipynb` (task 2) or `data_cleaning.ipynb` (task 3).
+## Task 4: Exploratory Data Analysis & Statistical Insights
+
+`eda_analysis.ipynb` analyses `clean_dataset.csv` (output of Task 3): descriptive statistics, distributions, box plots, correlation heatmaps, multivariate views, 3 hypothesis tests and top 5 findings.
+
+| Hypothesis | Test | Result |
+|---|---|---|
+| Q4 revenue is higher than the rest of the year | Welch t-test + Mann-Whitney | Confirmed: +44%, p < 0.0001 |
+| Profit margin differs by category | Kruskal-Wallis + Tukey HSD | Confirmed: epsilon-squared 0.68 |
+| First-order discount improves 180-day retention | Chi-square | No effect: 47.6% vs 47.5%, p = 0.96 |
+
+**Top findings:** Q4 seasonality (+44%); Electronics is 32% of revenue but 22.6% of profit; discounts cut margin from 38.5% to 21.6% without lifting order size or retention; all 27 loss-making orders are Electronics at 20-25% discount; only 81% of orders become revenue.
