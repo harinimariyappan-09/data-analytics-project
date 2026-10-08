@@ -51,3 +51,8 @@ Streamlit + Plotly dashboard on the cleaned orders from Task 3: headline KPIs (R
 **Data notes:** the dataset is synthetic. Marketing spend (`marketing_spend.csv`) is illustrative because the orders data has no spend; replace it with real spend and CAC updates automatically.
 
 **Run locally:** `pip install -r requirements.txt` then `streamlit run app.py`
+## Task 6: Executive Decision Report
+
+[Executive_Decision_Report.pdf](Executive_Decision_Report.pdf): 13-slide C-suite deck with executive summary, methodology, revenue drivers, risks, 3 strategic recommendations, ROI projections (low/base/high with break-even) and an implementation timeline. Built by `build_executive_report.py` from the same KPI engine as the dashboard.
+
+Portfolio: Task 2 KPI dictionary and quality contract, Task 3 cleaning notebook, Task 4 EDA notebook, Task 5 Streamlit dashboard, Task 6 this report.
