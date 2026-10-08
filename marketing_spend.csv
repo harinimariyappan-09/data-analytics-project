@@ -1,0 +1,865 @@
+month,region,channel,spend_inr
+2023-01-01,North,Paid Search,11200.01
+2023-01-01,North,Social Media,8669.86
+2023-01-01,North,Influencer & Affiliate,5761.42
+2023-01-01,North,Email & CRM,3767.01
+2023-01-01,South,Paid Search,14439.0
+2023-01-01,South,Social Media,10615.01
+2023-01-01,South,Influencer & Affiliate,8062.83
+2023-01-01,South,Email & CRM,4796.01
+2023-01-01,East,Paid Search,6643.06
+2023-01-01,East,Social Media,5569.47
+2023-01-01,East,Influencer & Affiliate,3449.79
+2023-01-01,East,Email & CRM,2024.04
+2023-01-01,West,Paid Search,9457.91
+2023-01-01,West,Social Media,7325.78
+2023-01-01,West,Influencer & Affiliate,5113.9
+2023-01-01,West,Email & CRM,2681.86
+2023-01-01,Central,Paid Search,5003.34
+2023-01-01,Central,Social Media,4286.06
+2023-01-01,Central,Influencer & Affiliate,2767.89
+2023-01-01,Central,Email & CRM,1615.2
+2023-01-01,Unknown,Paid Search,1920.69
+2023-01-01,Unknown,Social Media,1704.65
+2023-01-01,Unknown,Influencer & Affiliate,1056.43
+2023-01-01,Unknown,Email & CRM,617.51
+2023-02-01,North,Paid Search,10381.08
+2023-02-01,North,Social Media,7592.79
+2023-02-01,North,Influencer & Affiliate,5006.9
+2023-02-01,North,Email & CRM,3281.29
+2023-02-01,South,Paid Search,13150.45
+2023-02-01,South,Social Media,9582.61
+2023-02-01,South,Influencer & Affiliate,7127.31
+2023-02-01,South,Email & CRM,4126.99
+2023-02-01,East,Paid Search,8464.63
+2023-02-01,East,Social Media,6649.35
+2023-02-01,East,Influencer & Affiliate,4616.34
+2023-02-01,East,Email & CRM,2717.11
+2023-02-01,West,Paid Search,8047.31
+2023-02-01,West,Social Media,6023.55
+2023-02-01,West,Influencer & Affiliate,3861.42
+2023-02-01,West,Email & CRM,2400.09
+2023-02-01,Central,Paid Search,5118.73
+2023-02-01,Central,Social Media,3355.77
+2023-02-01,Central,Influencer & Affiliate,2384.16
+2023-02-01,Central,Email & CRM,1539.98
+2023-02-01,Unknown,Paid Search,2239.62
+2023-02-01,Unknown,Social Media,1896.73
+2023-02-01,Unknown,Influencer & Affiliate,1308.66
+2023-02-01,Unknown,Email & CRM,775.12
+2023-03-01,North,Paid Search,9174.74
+2023-03-01,North,Social Media,6015.29
+2023-03-01,North,Influencer & Affiliate,4253.16
+2023-03-01,North,Email & CRM,2543.33
+2023-03-01,South,Paid Search,11805.41
+2023-03-01,South,Social Media,9157.66
+2023-03-01,South,Influencer & Affiliate,6905.24
+2023-03-01,South,Email & CRM,4051.56
+2023-03-01,East,Paid Search,5553.04
+2023-03-01,East,Social Media,5088.92
+2023-03-01,East,Influencer & Affiliate,3296.36
+2023-03-01,East,Email & CRM,1922.2
+2023-03-01,West,Paid Search,7875.6
+2023-03-01,West,Social Media,5432.53
+2023-03-01,West,Influencer & Affiliate,3901.77
+2023-03-01,West,Email & CRM,2439.74
+2023-03-01,Central,Paid Search,6117.77
+2023-03-01,Central,Social Media,5187.61
+2023-03-01,Central,Influencer & Affiliate,2999.79
+2023-03-01,Central,Email & CRM,2012.3
+2023-03-01,Unknown,Paid Search,1364.92
+2023-03-01,Unknown,Social Media,1152.32
+2023-03-01,Unknown,Influencer & Affiliate,720.88
+2023-03-01,Unknown,Email & CRM,462.07
+2023-04-01,North,Paid Search,9531.9
+2023-04-01,North,Social Media,7610.17
+2023-04-01,North,Influencer & Affiliate,5594.59
+2023-04-01,North,Email & CRM,3142.21
+2023-04-01,South,Paid Search,10127.62
+2023-04-01,South,Social Media,7213.76
+2023-04-01,South,Influencer & Affiliate,4773.13
+2023-04-01,South,Email & CRM,2860.9
+2023-04-01,East,Paid Search,7079.4
+2023-04-01,East,Social Media,5224.8
+2023-04-01,East,Influencer & Affiliate,3542.94
+2023-04-01,East,Email & CRM,2293.94
+2023-04-01,West,Paid Search,9161.22
+2023-04-01,West,Social Media,6328.45
+2023-04-01,West,Influencer & Affiliate,4607.58
+2023-04-01,West,Email & CRM,2800.63
+2023-04-01,Central,Paid Search,2529.95
+2023-04-01,Central,Social Media,1964.84
+2023-04-01,Central,Influencer & Affiliate,1259.85
+2023-04-01,Central,Email & CRM,708.53
+2023-04-01,Unknown,Paid Search,1692.29
+2023-04-01,Unknown,Social Media,1306.87
+2023-04-01,Unknown,Influencer & Affiliate,919.22
+2023-04-01,Unknown,Email & CRM,521.31
+2023-05-01,North,Paid Search,8968.24
+2023-05-01,North,Social Media,7472.65
+2023-05-01,North,Influencer & Affiliate,4641.73
+2023-05-01,North,Email & CRM,3037.31
+2023-05-01,South,Paid Search,11316.4
+2023-05-01,South,Social Media,8499.75
+2023-05-01,South,Influencer & Affiliate,6361.66
+2023-05-01,South,Email & CRM,3668.94
+2023-05-01,East,Paid Search,6465.74
+2023-05-01,East,Social Media,4702.38
+2023-05-01,East,Influencer & Affiliate,2927.31
+2023-05-01,East,Email & CRM,2112.95
+2023-05-01,West,Paid Search,9594.11
+2023-05-01,West,Social Media,7180.84
+2023-05-01,West,Influencer & Affiliate,4916.65
+2023-05-01,West,Email & CRM,3091.8
+2023-05-01,Central,Paid Search,2499.43
+2023-05-01,Central,Social Media,2309.49
+2023-05-01,Central,Influencer & Affiliate,1342.51
+2023-05-01,Central,Email & CRM,916.57
+2023-05-01,Unknown,Paid Search,1616.91
+2023-05-01,Unknown,Social Media,1308.73
+2023-05-01,Unknown,Influencer & Affiliate,893.54
+2023-05-01,Unknown,Email & CRM,467.23
+2023-06-01,North,Paid Search,9504.01
+2023-06-01,North,Social Media,8458.88
+2023-06-01,North,Influencer & Affiliate,5266.31
+2023-06-01,North,Email & CRM,3054.9
+2023-06-01,South,Paid Search,11046.87
+2023-06-01,South,Social Media,8832.59
+2023-06-01,South,Influencer & Affiliate,5724.35
+2023-06-01,South,Email & CRM,3713.91
+2023-06-01,East,Paid Search,5438.55
+2023-06-01,East,Social Media,4663.3
+2023-06-01,East,Influencer & Affiliate,3036.79
+2023-06-01,East,Email & CRM,1664.46
+2023-06-01,West,Paid Search,8394.15
+2023-06-01,West,Social Media,5756.98
+2023-06-01,West,Influencer & Affiliate,3950.12
+2023-06-01,West,Email & CRM,2713.73
+2023-06-01,Central,Paid Search,3701.21
+2023-06-01,Central,Social Media,3016.25
+2023-06-01,Central,Influencer & Affiliate,1849.13
+2023-06-01,Central,Email & CRM,1173.48
+2023-06-01,Unknown,Paid Search,2110.42
+2023-06-01,Unknown,Social Media,1531.71
+2023-06-01,Unknown,Influencer & Affiliate,1075.73
+2023-06-01,Unknown,Email & CRM,654.0
+2023-07-01,North,Paid Search,9559.25
+2023-07-01,North,Social Media,7377.78
+2023-07-01,North,Influencer & Affiliate,5188.64
+2023-07-01,North,Email & CRM,3359.07
+2023-07-01,South,Paid Search,9304.12
+2023-07-01,South,Social Media,7650.91
+2023-07-01,South,Influencer & Affiliate,5818.2
+2023-07-01,South,Email & CRM,3298.77
+2023-07-01,East,Paid Search,4130.27
+2023-07-01,East,Social Media,3521.56
+2023-07-01,East,Influencer & Affiliate,2205.77
+2023-07-01,East,Email & CRM,1342.37
+2023-07-01,West,Paid Search,7330.49
+2023-07-01,West,Social Media,5251.3
+2023-07-01,West,Influencer & Affiliate,3257.35
+2023-07-01,West,Email & CRM,1906.69
+2023-07-01,Central,Paid Search,4398.5
+2023-07-01,Central,Social Media,3560.57
+2023-07-01,Central,Influencer & Affiliate,2753.3
+2023-07-01,Central,Email & CRM,1402.39
+2023-07-01,Unknown,Paid Search,2348.1
+2023-07-01,Unknown,Social Media,1896.4
+2023-07-01,Unknown,Influencer & Affiliate,1171.34
+2023-07-01,Unknown,Email & CRM,786.64
+2023-08-01,North,Paid Search,7904.21
+2023-08-01,North,Social Media,5693.07
+2023-08-01,North,Influencer & Affiliate,3745.3
+2023-08-01,North,Email & CRM,2404.44
+2023-08-01,South,Paid Search,10168.8
+2023-08-01,South,Social Media,7230.03
+2023-08-01,South,Influencer & Affiliate,5736.97
+2023-08-01,South,Email & CRM,3228.81
+2023-08-01,East,Paid Search,5757.65
+2023-08-01,East,Social Media,4328.85
+2023-08-01,East,Influencer & Affiliate,2717.3
+2023-08-01,East,Email & CRM,1683.31
+2023-08-01,West,Paid Search,8277.11
+2023-08-01,West,Social Media,6643.14
+2023-08-01,West,Influencer & Affiliate,4739.58
+2023-08-01,West,Email & CRM,2527.11
+2023-08-01,Central,Paid Search,1638.31
+2023-08-01,Central,Social Media,1291.39
+2023-08-01,Central,Influencer & Affiliate,838.88
+2023-08-01,Central,Email & CRM,526.53
+2023-08-01,Unknown,Paid Search,1444.29
+2023-08-01,Unknown,Social Media,1125.41
+2023-08-01,Unknown,Influencer & Affiliate,836.47
+2023-08-01,Unknown,Email & CRM,457.35
+2023-09-01,North,Paid Search,7032.33
+2023-09-01,North,Social Media,5569.49
+2023-09-01,North,Influencer & Affiliate,4020.54
+2023-09-01,North,Email & CRM,2507.45
+2023-09-01,South,Paid Search,11204.97
+2023-09-01,South,Social Media,9874.29
+2023-09-01,South,Influencer & Affiliate,6133.23
+2023-09-01,South,Email & CRM,3782.39
+2023-09-01,East,Paid Search,4336.98
+2023-09-01,East,Social Media,3141.86
+2023-09-01,East,Influencer & Affiliate,2155.59
+2023-09-01,East,Email & CRM,1475.32
+2023-09-01,West,Paid Search,6918.93
+2023-09-01,West,Social Media,4785.16
+2023-09-01,West,Influencer & Affiliate,3330.42
+2023-09-01,West,Email & CRM,2049.72
+2023-09-01,Central,Paid Search,3114.36
+2023-09-01,Central,Social Media,2451.9
+2023-09-01,Central,Influencer & Affiliate,1498.53
+2023-09-01,Central,Email & CRM,958.64
+2023-09-01,Unknown,Paid Search,1336.32
+2023-09-01,Unknown,Social Media,1089.79
+2023-09-01,Unknown,Influencer & Affiliate,787.72
+2023-09-01,Unknown,Email & CRM,465.94
+2023-10-01,North,Paid Search,9200.52
+2023-10-01,North,Social Media,7684.17
+2023-10-01,North,Influencer & Affiliate,5151.57
+2023-10-01,North,Email & CRM,2907.19
+2023-10-01,South,Paid Search,12689.13
+2023-10-01,South,Social Media,9973.72
+2023-10-01,South,Influencer & Affiliate,6604.59
+2023-10-01,South,Email & CRM,3968.69
+2023-10-01,East,Paid Search,7594.83
+2023-10-01,East,Social Media,5752.98
+2023-10-01,East,Influencer & Affiliate,3835.67
+2023-10-01,East,Email & CRM,2151.4
+2023-10-01,West,Paid Search,7998.07
+2023-10-01,West,Social Media,7100.01
+2023-10-01,West,Influencer & Affiliate,4143.84
+2023-10-01,West,Email & CRM,2668.38
+2023-10-01,Central,Paid Search,5601.61
+2023-10-01,Central,Social Media,4583.6
+2023-10-01,Central,Influencer & Affiliate,2944.24
+2023-10-01,Central,Email & CRM,1851.18
+2023-10-01,Unknown,Paid Search,1280.97
+2023-10-01,Unknown,Social Media,1012.34
+2023-10-01,Unknown,Influencer & Affiliate,695.29
+2023-10-01,Unknown,Email & CRM,374.13
+2023-11-01,North,Paid Search,9768.84
+2023-11-01,North,Social Media,6614.91
+2023-11-01,North,Influencer & Affiliate,4561.21
+2023-11-01,North,Email & CRM,2579.31
+2023-11-01,South,Paid Search,14625.37
+2023-11-01,South,Social Media,9817.72
+2023-11-01,South,Influencer & Affiliate,7598.1
+2023-11-01,South,Email & CRM,4108.81
+2023-11-01,East,Paid Search,6494.02
+2023-11-01,East,Social Media,5687.38
+2023-11-01,East,Influencer & Affiliate,3752.45
+2023-11-01,East,Email & CRM,2059.04
+2023-11-01,West,Paid Search,8416.75
+2023-11-01,West,Social Media,7598.63
+2023-11-01,West,Influencer & Affiliate,4756.04
+2023-11-01,West,Email & CRM,2605.03
+2023-11-01,Central,Paid Search,4422.67
+2023-11-01,Central,Social Media,3341.67
+2023-11-01,Central,Influencer & Affiliate,2345.84
+2023-11-01,Central,Email & CRM,1419.39
+2023-11-01,Unknown,Paid Search,2261.43
+2023-11-01,Unknown,Social Media,1780.85
+2023-11-01,Unknown,Influencer & Affiliate,1097.18
+2023-11-01,Unknown,Email & CRM,663.32
+2023-12-01,North,Paid Search,10930.98
+2023-12-01,North,Social Media,9781.58
+2023-12-01,North,Influencer & Affiliate,6083.76
+2023-12-01,North,Email & CRM,3956.26
+2023-12-01,South,Paid Search,13456.6
+2023-12-01,South,Social Media,12100.55
+2023-12-01,South,Influencer & Affiliate,8122.59
+2023-12-01,South,Email & CRM,4677.75
+2023-12-01,East,Paid Search,5277.28
+2023-12-01,East,Social Media,4009.24
+2023-12-01,East,Influencer & Affiliate,2419.14
+2023-12-01,East,Email & CRM,1606.21
+2023-12-01,West,Paid Search,8462.24
+2023-12-01,West,Social Media,6928.18
+2023-12-01,West,Influencer & Affiliate,4172.77
+2023-12-01,West,Email & CRM,2473.06
+2023-12-01,Central,Paid Search,4111.71
+2023-12-01,Central,Social Media,3215.69
+2023-12-01,Central,Influencer & Affiliate,2032.83
+2023-12-01,Central,Email & CRM,1093.59
+2023-12-01,Unknown,Paid Search,1981.54
+2023-12-01,Unknown,Social Media,1571.37
+2023-12-01,Unknown,Influencer & Affiliate,1191.85
+2023-12-01,Unknown,Email & CRM,649.64
+2024-01-01,North,Paid Search,6657.02
+2024-01-01,North,Social Media,5025.38
+2024-01-01,North,Influencer & Affiliate,3579.25
+2024-01-01,North,Email & CRM,2019.69
+2024-01-01,South,Paid Search,6085.64
+2024-01-01,South,Social Media,4314.86
+2024-01-01,South,Influencer & Affiliate,3113.91
+2024-01-01,South,Email & CRM,1865.6
+2024-01-01,East,Paid Search,3690.19
+2024-01-01,East,Social Media,3194.29
+2024-01-01,East,Influencer & Affiliate,1993.11
+2024-01-01,East,Email & CRM,1145.78
+2024-01-01,West,Paid Search,4866.99
+2024-01-01,West,Social Media,3738.75
+2024-01-01,West,Influencer & Affiliate,2897.79
+2024-01-01,West,Email & CRM,1650.01
+2024-01-01,Central,Paid Search,2350.02
+2024-01-01,Central,Social Media,1817.12
+2024-01-01,Central,Influencer & Affiliate,1285.75
+2024-01-01,Central,Email & CRM,813.19
+2024-01-01,Unknown,Paid Search,963.77
+2024-01-01,Unknown,Social Media,802.33
+2024-01-01,Unknown,Influencer & Affiliate,485.64
+2024-01-01,Unknown,Email & CRM,333.66
+2024-02-01,North,Paid Search,5374.28
+2024-02-01,North,Social Media,4288.45
+2024-02-01,North,Influencer & Affiliate,2526.58
+2024-02-01,North,Email & CRM,1701.04
+2024-02-01,South,Paid Search,7242.95
+2024-02-01,South,Social Media,6092.73
+2024-02-01,South,Influencer & Affiliate,3728.56
+2024-02-01,South,Email & CRM,2668.23
+2024-02-01,East,Paid Search,4345.82
+2024-02-01,East,Social Media,2977.42
+2024-02-01,East,Influencer & Affiliate,2184.01
+2024-02-01,East,Email & CRM,1293.44
+2024-02-01,West,Paid Search,4658.78
+2024-02-01,West,Social Media,3656.07
+2024-02-01,West,Influencer & Affiliate,2340.49
+2024-02-01,West,Email & CRM,1339.95
+2024-02-01,Central,Paid Search,1849.22
+2024-02-01,Central,Social Media,1295.55
+2024-02-01,Central,Influencer & Affiliate,977.41
+2024-02-01,Central,Email & CRM,522.52
+2024-02-01,Unknown,Paid Search,780.83
+2024-02-01,Unknown,Social Media,580.99
+2024-02-01,Unknown,Influencer & Affiliate,414.76
+2024-02-01,Unknown,Email & CRM,267.44
+2024-03-01,North,Paid Search,5734.04
+2024-03-01,North,Social Media,3881.89
+2024-03-01,North,Influencer & Affiliate,2768.27
+2024-03-01,North,Email & CRM,1807.12
+2024-03-01,South,Paid Search,6515.22
+2024-03-01,South,Social Media,4703.87
+2024-03-01,South,Influencer & Affiliate,3544.18
+2024-03-01,South,Email & CRM,2206.39
+2024-03-01,East,Paid Search,2517.05
+2024-03-01,East,Social Media,2119.42
+2024-03-01,East,Influencer & Affiliate,1486.41
+2024-03-01,East,Email & CRM,897.34
+2024-03-01,West,Paid Search,4862.88
+2024-03-01,West,Social Media,3943.01
+2024-03-01,West,Influencer & Affiliate,2284.0
+2024-03-01,West,Email & CRM,1607.86
+2024-03-01,Central,Paid Search,2234.18
+2024-03-01,Central,Social Media,1613.84
+2024-03-01,Central,Influencer & Affiliate,1218.92
+2024-03-01,Central,Email & CRM,713.24
+2024-03-01,Unknown,Paid Search,1050.7
+2024-03-01,Unknown,Social Media,722.78
+2024-03-01,Unknown,Influencer & Affiliate,552.21
+2024-03-01,Unknown,Email & CRM,317.43
+2024-04-01,North,Paid Search,4682.03
+2024-04-01,North,Social Media,3954.35
+2024-04-01,North,Influencer & Affiliate,2647.57
+2024-04-01,North,Email & CRM,1358.38
+2024-04-01,South,Paid Search,4976.82
+2024-04-01,South,Social Media,4123.74
+2024-04-01,South,Influencer & Affiliate,2616.76
+2024-04-01,South,Email & CRM,1454.79
+2024-04-01,East,Paid Search,3915.45
+2024-04-01,East,Social Media,2782.65
+2024-04-01,East,Influencer & Affiliate,1808.97
+2024-04-01,East,Email & CRM,1203.17
+2024-04-01,West,Paid Search,5463.86
+2024-04-01,West,Social Media,4075.75
+2024-04-01,West,Influencer & Affiliate,2715.7
+2024-04-01,West,Email & CRM,1711.98
+2024-04-01,Central,Paid Search,1678.85
+2024-04-01,Central,Social Media,1313.56
+2024-04-01,Central,Influencer & Affiliate,823.52
+2024-04-01,Central,Email & CRM,488.59
+2024-04-01,Unknown,Paid Search,707.42
+2024-04-01,Unknown,Social Media,623.1
+2024-04-01,Unknown,Influencer & Affiliate,413.06
+2024-04-01,Unknown,Email & CRM,216.7
+2024-05-01,North,Paid Search,5389.77
+2024-05-01,North,Social Media,3870.24
+2024-05-01,North,Influencer & Affiliate,2989.19
+2024-05-01,North,Email & CRM,1591.65
+2024-05-01,South,Paid Search,6647.35
+2024-05-01,South,Social Media,4509.54
+2024-05-01,South,Influencer & Affiliate,2976.33
+2024-05-01,South,Email & CRM,1779.27
+2024-05-01,East,Paid Search,3551.84
+2024-05-01,East,Social Media,2359.52
+2024-05-01,East,Influencer & Affiliate,1733.19
+2024-05-01,East,Email & CRM,1086.55
+2024-05-01,West,Paid Search,4521.81
+2024-05-01,West,Social Media,3366.6
+2024-05-01,West,Influencer & Affiliate,2422.48
+2024-05-01,West,Email & CRM,1273.92
+2024-05-01,Central,Paid Search,2339.27
+2024-05-01,Central,Social Media,1568.81
+2024-05-01,Central,Influencer & Affiliate,1208.1
+2024-05-01,Central,Email & CRM,708.16
+2024-05-01,Unknown,Paid Search,1582.78
+2024-05-01,Unknown,Social Media,1335.97
+2024-05-01,Unknown,Influencer & Affiliate,804.52
+2024-05-01,Unknown,Email & CRM,459.63
+2024-06-01,North,Paid Search,3977.89
+2024-06-01,North,Social Media,3129.02
+2024-06-01,North,Influencer & Affiliate,1915.93
+2024-06-01,North,Email & CRM,1264.07
+2024-06-01,South,Paid Search,4932.69
+2024-06-01,South,Social Media,4147.47
+2024-06-01,South,Influencer & Affiliate,2924.85
+2024-06-01,South,Email & CRM,1666.96
+2024-06-01,East,Paid Search,2670.9
+2024-06-01,East,Social Media,2107.06
+2024-06-01,East,Influencer & Affiliate,1262.04
+2024-06-01,East,Email & CRM,783.61
+2024-06-01,West,Paid Search,3552.36
+2024-06-01,West,Social Media,2706.67
+2024-06-01,West,Influencer & Affiliate,1867.68
+2024-06-01,West,Email & CRM,1204.62
+2024-06-01,Central,Paid Search,2270.02
+2024-06-01,Central,Social Media,1568.26
+2024-06-01,Central,Influencer & Affiliate,1202.25
+2024-06-01,Central,Email & CRM,735.55
+2024-06-01,Unknown,Paid Search,985.49
+2024-06-01,Unknown,Social Media,680.15
+2024-06-01,Unknown,Influencer & Affiliate,519.88
+2024-06-01,Unknown,Email & CRM,311.75
+2024-07-01,North,Paid Search,5342.45
+2024-07-01,North,Social Media,4348.67
+2024-07-01,North,Influencer & Affiliate,2815.88
+2024-07-01,North,Email & CRM,1611.9
+2024-07-01,South,Paid Search,5430.73
+2024-07-01,South,Social Media,4898.4
+2024-07-01,South,Influencer & Affiliate,3279.83
+2024-07-01,South,Email & CRM,1724.82
+2024-07-01,East,Paid Search,2953.32
+2024-07-01,East,Social Media,2148.15
+2024-07-01,East,Influencer & Affiliate,1545.27
+2024-07-01,East,Email & CRM,928.91
+2024-07-01,West,Paid Search,3526.13
+2024-07-01,West,Social Media,2918.78
+2024-07-01,West,Influencer & Affiliate,2054.85
+2024-07-01,West,Email & CRM,1189.61
+2024-07-01,Central,Paid Search,2209.91
+2024-07-01,Central,Social Media,1611.52
+2024-07-01,Central,Influencer & Affiliate,1110.73
+2024-07-01,Central,Email & CRM,707.43
+2024-07-01,Unknown,Paid Search,746.42
+2024-07-01,Unknown,Social Media,550.28
+2024-07-01,Unknown,Influencer & Affiliate,390.88
+2024-07-01,Unknown,Email & CRM,238.55
+2024-08-01,North,Paid Search,5840.09
+2024-08-01,North,Social Media,4597.33
+2024-08-01,North,Influencer & Affiliate,2873.1
+2024-08-01,North,Email & CRM,1596.04
+2024-08-01,South,Paid Search,6344.82
+2024-08-01,South,Social Media,4958.99
+2024-08-01,South,Influencer & Affiliate,3409.66
+2024-08-01,South,Email & CRM,2120.28
+2024-08-01,East,Paid Search,3669.14
+2024-08-01,East,Social Media,3468.07
+2024-08-01,East,Influencer & Affiliate,1904.95
+2024-08-01,East,Email & CRM,1371.79
+2024-08-01,West,Paid Search,5390.26
+2024-08-01,West,Social Media,4157.33
+2024-08-01,West,Influencer & Affiliate,2794.18
+2024-08-01,West,Email & CRM,1480.62
+2024-08-01,Central,Paid Search,2244.01
+2024-08-01,Central,Social Media,1789.01
+2024-08-01,Central,Influencer & Affiliate,1140.45
+2024-08-01,Central,Email & CRM,690.85
+2024-08-01,Unknown,Paid Search,1618.98
+2024-08-01,Unknown,Social Media,1256.95
+2024-08-01,Unknown,Influencer & Affiliate,837.28
+2024-08-01,Unknown,Email & CRM,514.08
+2024-09-01,North,Paid Search,3598.42
+2024-09-01,North,Social Media,2766.22
+2024-09-01,North,Influencer & Affiliate,1993.19
+2024-09-01,North,Email & CRM,1268.98
+2024-09-01,South,Paid Search,5970.8
+2024-09-01,South,Social Media,5054.82
+2024-09-01,South,Influencer & Affiliate,2960.21
+2024-09-01,South,Email & CRM,1983.28
+2024-09-01,East,Paid Search,2332.86
+2024-09-01,East,Social Media,2002.5
+2024-09-01,East,Influencer & Affiliate,1425.82
+2024-09-01,East,Email & CRM,828.6
+2024-09-01,West,Paid Search,3230.92
+2024-09-01,West,Social Media,2465.93
+2024-09-01,West,Influencer & Affiliate,1647.97
+2024-09-01,West,Email & CRM,1139.61
+2024-09-01,Central,Paid Search,2811.92
+2024-09-01,Central,Social Media,2278.93
+2024-09-01,Central,Influencer & Affiliate,1528.74
+2024-09-01,Central,Email & CRM,851.26
+2024-09-01,Unknown,Paid Search,693.33
+2024-09-01,Unknown,Social Media,517.51
+2024-09-01,Unknown,Influencer & Affiliate,395.8
+2024-09-01,Unknown,Email & CRM,198.71
+2024-10-01,North,Paid Search,7643.34
+2024-10-01,North,Social Media,5874.42
+2024-10-01,North,Influencer & Affiliate,3824.96
+2024-10-01,North,Email & CRM,2196.55
+2024-10-01,South,Paid Search,6131.68
+2024-10-01,South,Social Media,5037.04
+2024-10-01,South,Influencer & Affiliate,3486.02
+2024-10-01,South,Email & CRM,1966.24
+2024-10-01,East,Paid Search,3227.08
+2024-10-01,East,Social Media,2414.18
+2024-10-01,East,Influencer & Affiliate,1779.24
+2024-10-01,East,Email & CRM,1073.86
+2024-10-01,West,Paid Search,5949.44
+2024-10-01,West,Social Media,4278.74
+2024-10-01,West,Influencer & Affiliate,3124.56
+2024-10-01,West,Email & CRM,1867.67
+2024-10-01,Central,Paid Search,2031.62
+2024-10-01,Central,Social Media,1437.89
+2024-10-01,Central,Influencer & Affiliate,966.22
+2024-10-01,Central,Email & CRM,639.32
+2024-10-01,Unknown,Paid Search,1021.05
+2024-10-01,Unknown,Social Media,772.37
+2024-10-01,Unknown,Influencer & Affiliate,542.36
+2024-10-01,Unknown,Email & CRM,345.61
+2024-11-01,North,Paid Search,6034.82
+2024-11-01,North,Social Media,4175.0
+2024-11-01,North,Influencer & Affiliate,3086.81
+2024-11-01,North,Email & CRM,1907.76
+2024-11-01,South,Paid Search,6125.05
+2024-11-01,South,Social Media,5497.18
+2024-11-01,South,Influencer & Affiliate,3682.97
+2024-11-01,South,Email & CRM,1983.08
+2024-11-01,East,Paid Search,5491.58
+2024-11-01,East,Social Media,3884.32
+2024-11-01,East,Influencer & Affiliate,2906.16
+2024-11-01,East,Email & CRM,1509.39
+2024-11-01,West,Paid Search,4576.06
+2024-11-01,West,Social Media,3772.12
+2024-11-01,West,Influencer & Affiliate,2251.14
+2024-11-01,West,Email & CRM,1526.85
+2024-11-01,Central,Paid Search,2574.71
+2024-11-01,Central,Social Media,1968.34
+2024-11-01,Central,Influencer & Affiliate,1313.79
+2024-11-01,Central,Email & CRM,924.65
+2024-11-01,Unknown,Paid Search,798.48
+2024-11-01,Unknown,Social Media,627.62
+2024-11-01,Unknown,Influencer & Affiliate,407.94
+2024-11-01,Unknown,Email & CRM,225.22
+2024-12-01,North,Paid Search,6403.95
+2024-12-01,North,Social Media,4672.38
+2024-12-01,North,Influencer & Affiliate,3057.53
+2024-12-01,North,Email & CRM,2000.7
+2024-12-01,South,Paid Search,5656.03
+2024-12-01,South,Social Media,4023.6
+2024-12-01,South,Influencer & Affiliate,2612.65
+2024-12-01,South,Email & CRM,1590.63
+2024-12-01,East,Paid Search,3405.71
+2024-12-01,East,Social Media,2489.84
+2024-12-01,East,Influencer & Affiliate,1673.65
+2024-12-01,East,Email & CRM,1056.11
+2024-12-01,West,Paid Search,5081.69
+2024-12-01,West,Social Media,4146.28
+2024-12-01,West,Influencer & Affiliate,2437.67
+2024-12-01,West,Email & CRM,1667.63
+2024-12-01,Central,Paid Search,2537.36
+2024-12-01,Central,Social Media,2091.82
+2024-12-01,Central,Influencer & Affiliate,1351.08
+2024-12-01,Central,Email & CRM,809.12
+2024-12-01,Unknown,Paid Search,1577.76
+2024-12-01,Unknown,Social Media,1121.27
+2024-12-01,Unknown,Influencer & Affiliate,871.97
+2024-12-01,Unknown,Email & CRM,468.91
+2025-01-01,North,Paid Search,5090.65
+2025-01-01,North,Social Media,4160.02
+2025-01-01,North,Influencer & Affiliate,2730.87
+2025-01-01,North,Email & CRM,1462.28
+2025-01-01,South,Paid Search,4179.56
+2025-01-01,South,Social Media,3539.35
+2025-01-01,South,Influencer & Affiliate,2282.25
+2025-01-01,South,Email & CRM,1342.92
+2025-01-01,East,Paid Search,2750.72
+2025-01-01,East,Social Media,2126.83
+2025-01-01,East,Influencer & Affiliate,1430.97
+2025-01-01,East,Email & CRM,890.25
+2025-01-01,West,Paid Search,3420.59
+2025-01-01,West,Social Media,2631.99
+2025-01-01,West,Influencer & Affiliate,1864.85
+2025-01-01,West,Email & CRM,1006.42
+2025-01-01,Central,Paid Search,2094.85
+2025-01-01,Central,Social Media,1392.22
+2025-01-01,Central,Influencer & Affiliate,1095.93
+2025-01-01,Central,Email & CRM,590.03
+2025-01-01,Unknown,Paid Search,663.61
+2025-01-01,Unknown,Social Media,584.52
+2025-01-01,Unknown,Influencer & Affiliate,360.12
+2025-01-01,Unknown,Email & CRM,218.36
+2025-02-01,North,Paid Search,3535.53
+2025-02-01,North,Social Media,2652.21
+2025-02-01,North,Influencer & Affiliate,1835.65
+2025-02-01,North,Email & CRM,1013.96
+2025-02-01,South,Paid Search,4087.62
+2025-02-01,South,Social Media,3042.19
+2025-02-01,South,Influencer & Affiliate,2062.29
+2025-02-01,South,Email & CRM,1092.51
+2025-02-01,East,Paid Search,2860.86
+2025-02-01,East,Social Media,2197.1
+2025-02-01,East,Influencer & Affiliate,1585.19
+2025-02-01,East,Email & CRM,865.72
+2025-02-01,West,Paid Search,3498.49
+2025-02-01,West,Social Media,2643.62
+2025-02-01,West,Influencer & Affiliate,1846.64
+2025-02-01,West,Email & CRM,1038.65
+2025-02-01,Central,Paid Search,1798.31
+2025-02-01,Central,Social Media,1348.34
+2025-02-01,Central,Influencer & Affiliate,782.4
+2025-02-01,Central,Email & CRM,470.98
+2025-02-01,Unknown,Paid Search,550.29
+2025-02-01,Unknown,Social Media,508.47
+2025-02-01,Unknown,Influencer & Affiliate,296.23
+2025-02-01,Unknown,Email & CRM,184.93
+2025-03-01,North,Paid Search,3046.48
+2025-03-01,North,Social Media,2344.46
+2025-03-01,North,Influencer & Affiliate,1458.21
+2025-03-01,North,Email & CRM,1000.56
+2025-03-01,South,Paid Search,5542.68
+2025-03-01,South,Social Media,4870.36
+2025-03-01,South,Influencer & Affiliate,3060.93
+2025-03-01,South,Email & CRM,1683.15
+2025-03-01,East,Paid Search,2049.42
+2025-03-01,East,Social Media,1553.52
+2025-03-01,East,Influencer & Affiliate,961.93
+2025-03-01,East,Email & CRM,670.35
+2025-03-01,West,Paid Search,2313.55
+2025-03-01,West,Social Media,1836.19
+2025-03-01,West,Influencer & Affiliate,1040.24
+2025-03-01,West,Email & CRM,697.47
+2025-03-01,Central,Paid Search,1623.04
+2025-03-01,Central,Social Media,1277.65
+2025-03-01,Central,Influencer & Affiliate,915.24
+2025-03-01,Central,Email & CRM,575.26
+2025-03-01,Unknown,Paid Search,426.03
+2025-03-01,Unknown,Social Media,346.26
+2025-03-01,Unknown,Influencer & Affiliate,257.13
+2025-03-01,Unknown,Email & CRM,134.98
+2025-04-01,North,Paid Search,3534.44
+2025-04-01,North,Social Media,2607.46
+2025-04-01,North,Influencer & Affiliate,1963.42
+2025-04-01,North,Email & CRM,1150.57
+2025-04-01,South,Paid Search,4526.57
+2025-04-01,South,Social Media,3718.28
+2025-04-01,South,Influencer & Affiliate,2205.89
+2025-04-01,South,Email & CRM,1331.0
+2025-04-01,East,Paid Search,1845.1
+2025-04-01,East,Social Media,1648.63
+2025-04-01,East,Influencer & Affiliate,1072.54
+2025-04-01,East,Email & CRM,660.35
+2025-04-01,West,Paid Search,2347.36
+2025-04-01,West,Social Media,2119.44
+2025-04-01,West,Influencer & Affiliate,1196.63
+2025-04-01,West,Email & CRM,831.08
+2025-04-01,Central,Paid Search,1353.71
+2025-04-01,Central,Social Media,972.13
+2025-04-01,Central,Influencer & Affiliate,666.69
+2025-04-01,Central,Email & CRM,406.56
+2025-04-01,Unknown,Paid Search,410.39
+2025-04-01,Unknown,Social Media,291.46
+2025-04-01,Unknown,Influencer & Affiliate,211.77
+2025-04-01,Unknown,Email & CRM,112.48
+2025-05-01,North,Paid Search,3862.07
+2025-05-01,North,Social Media,3326.83
+2025-05-01,North,Influencer & Affiliate,1955.28
+2025-05-01,North,Email & CRM,1422.18
+2025-05-01,South,Paid Search,4640.66
+2025-05-01,South,Social Media,3269.29
+2025-05-01,South,Influencer & Affiliate,2471.32
+2025-05-01,South,Email & CRM,1534.05
+2025-05-01,East,Paid Search,2046.73
+2025-05-01,East,Social Media,1793.24
+2025-05-01,East,Influencer & Affiliate,1109.01
+2025-05-01,East,Email & CRM,755.05
+2025-05-01,West,Paid Search,2939.62
+2025-05-01,West,Social Media,2375.15
+2025-05-01,West,Influencer & Affiliate,1459.63
+2025-05-01,West,Email & CRM,893.43
+2025-05-01,Central,Paid Search,1031.24
+2025-05-01,Central,Social Media,687.42
+2025-05-01,Central,Influencer & Affiliate,488.13
+2025-05-01,Central,Email & CRM,325.56
+2025-05-01,Unknown,Paid Search,541.21
+2025-05-01,Unknown,Social Media,454.69
+2025-05-01,Unknown,Influencer & Affiliate,304.57
+2025-05-01,Unknown,Email & CRM,163.68
+2025-06-01,North,Paid Search,4352.49
+2025-06-01,North,Social Media,3349.34
+2025-06-01,North,Influencer & Affiliate,2279.94
+2025-06-01,North,Email & CRM,1336.59
+2025-06-01,South,Paid Search,3483.5
+2025-06-01,South,Social Media,2764.59
+2025-06-01,South,Influencer & Affiliate,2043.0
+2025-06-01,South,Email & CRM,1085.97
+2025-06-01,East,Paid Search,2070.54
+2025-06-01,East,Social Media,1492.87
+2025-06-01,East,Influencer & Affiliate,944.18
+2025-06-01,East,Email & CRM,598.88
+2025-06-01,West,Paid Search,3033.68
+2025-06-01,West,Social Media,2822.51
+2025-06-01,West,Influencer & Affiliate,1695.25
+2025-06-01,West,Email & CRM,1041.0
+2025-06-01,Central,Paid Search,1067.66
+2025-06-01,Central,Social Media,799.34
+2025-06-01,Central,Influencer & Affiliate,528.37
+2025-06-01,Central,Email & CRM,308.2
+2025-06-01,Unknown,Paid Search,509.64
+2025-06-01,Unknown,Social Media,402.96
+2025-06-01,Unknown,Influencer & Affiliate,264.01
+2025-06-01,Unknown,Email & CRM,154.53
+2025-07-01,North,Paid Search,2450.3
+2025-07-01,North,Social Media,2245.22
+2025-07-01,North,Influencer & Affiliate,1281.66
+2025-07-01,North,Email & CRM,850.49
+2025-07-01,South,Paid Search,5273.73
+2025-07-01,South,Social Media,4075.29
+2025-07-01,South,Influencer & Affiliate,2654.24
+2025-07-01,South,Email & CRM,1505.35
+2025-07-01,East,Paid Search,2408.88
+2025-07-01,East,Social Media,2174.67
+2025-07-01,East,Influencer & Affiliate,1449.76
+2025-07-01,East,Email & CRM,807.74
+2025-07-01,West,Paid Search,2323.52
+2025-07-01,West,Social Media,1762.56
+2025-07-01,West,Influencer & Affiliate,1244.53
+2025-07-01,West,Email & CRM,758.03
+2025-07-01,Central,Paid Search,1464.66
+2025-07-01,Central,Social Media,1376.27
+2025-07-01,Central,Influencer & Affiliate,796.21
+2025-07-01,Central,Email & CRM,480.62
+2025-07-01,Unknown,Paid Search,426.64
+2025-07-01,Unknown,Social Media,320.57
+2025-07-01,Unknown,Influencer & Affiliate,206.62
+2025-07-01,Unknown,Email & CRM,133.11
+2025-08-01,North,Paid Search,3265.77
+2025-08-01,North,Social Media,2670.69
+2025-08-01,North,Influencer & Affiliate,1470.86
+2025-08-01,North,Email & CRM,990.79
+2025-08-01,South,Paid Search,4199.93
+2025-08-01,South,Social Media,3290.59
+2025-08-01,South,Influencer & Affiliate,2478.08
+2025-08-01,South,Email & CRM,1485.64
+2025-08-01,East,Paid Search,1865.52
+2025-08-01,East,Social Media,1405.59
+2025-08-01,East,Influencer & Affiliate,924.9
+2025-08-01,East,Email & CRM,546.62
+2025-08-01,West,Paid Search,2881.87
+2025-08-01,West,Social Media,2284.48
+2025-08-01,West,Influencer & Affiliate,1605.67
+2025-08-01,West,Email & CRM,911.08
+2025-08-01,Central,Paid Search,1221.21
+2025-08-01,Central,Social Media,857.29
+2025-08-01,Central,Influencer & Affiliate,625.66
+2025-08-01,Central,Email & CRM,364.22
+2025-08-01,Unknown,Paid Search,769.04
+2025-08-01,Unknown,Social Media,627.71
+2025-08-01,Unknown,Influencer & Affiliate,487.35
+2025-08-01,Unknown,Email & CRM,259.55
+2025-09-01,North,Paid Search,3024.95
+2025-09-01,North,Social Media,2353.01
+2025-09-01,North,Influencer & Affiliate,1601.68
+2025-09-01,North,Email & CRM,1000.81
+2025-09-01,South,Paid Search,3781.58
+2025-09-01,South,Social Media,3349.5
+2025-09-01,South,Influencer & Affiliate,2126.82
+2025-09-01,South,Email & CRM,1161.0
+2025-09-01,East,Paid Search,2513.3
+2025-09-01,East,Social Media,1855.04
+2025-09-01,East,Influencer & Affiliate,1266.84
+2025-09-01,East,Email & CRM,773.14
+2025-09-01,West,Paid Search,2431.55
+2025-09-01,West,Social Media,2009.99
+2025-09-01,West,Influencer & Affiliate,1342.24
+2025-09-01,West,Email & CRM,858.92
+2025-09-01,Central,Paid Search,1383.07
+2025-09-01,Central,Social Media,1006.97
+2025-09-01,Central,Influencer & Affiliate,659.91
+2025-09-01,Central,Email & CRM,379.91
+2025-09-01,Unknown,Paid Search,426.63
+2025-09-01,Unknown,Social Media,371.44
+2025-09-01,Unknown,Influencer & Affiliate,233.8
+2025-09-01,Unknown,Email & CRM,128.26
+2025-10-01,North,Paid Search,3909.27
+2025-10-01,North,Social Media,2832.13
+2025-10-01,North,Influencer & Affiliate,2031.97
+2025-10-01,North,Email & CRM,1284.13
+2025-10-01,South,Paid Search,5655.4
+2025-10-01,South,Social Media,4456.92
+2025-10-01,South,Influencer & Affiliate,3107.73
+2025-10-01,South,Email & CRM,1795.46
+2025-10-01,East,Paid Search,2387.42
+2025-10-01,East,Social Media,1893.41
+2025-10-01,East,Influencer & Affiliate,1393.39
+2025-10-01,East,Email & CRM,825.04
+2025-10-01,West,Paid Search,3466.12
+2025-10-01,West,Social Media,2824.43
+2025-10-01,West,Influencer & Affiliate,1670.63
+2025-10-01,West,Email & CRM,1136.39
+2025-10-01,Central,Paid Search,1842.68
+2025-10-01,Central,Social Media,1248.03
+2025-10-01,Central,Influencer & Affiliate,939.44
+2025-10-01,Central,Email & CRM,522.71
+2025-10-01,Unknown,Paid Search,544.44
+2025-10-01,Unknown,Social Media,453.16
+2025-10-01,Unknown,Influencer & Affiliate,310.7
+2025-10-01,Unknown,Email & CRM,193.2
+2025-11-01,North,Paid Search,5185.35
+2025-11-01,North,Social Media,4445.38
+2025-11-01,North,Influencer & Affiliate,2953.55
+2025-11-01,North,Email & CRM,1638.33
+2025-11-01,South,Paid Search,6193.68
+2025-11-01,South,Social Media,4716.94
+2025-11-01,South,Influencer & Affiliate,2912.74
+2025-11-01,South,Email & CRM,1998.91
+2025-11-01,East,Paid Search,3445.9
+2025-11-01,East,Social Media,2564.24
+2025-11-01,East,Influencer & Affiliate,1655.94
+2025-11-01,East,Email & CRM,1027.54
+2025-11-01,West,Paid Search,3938.1
+2025-11-01,West,Social Media,2862.62
+2025-11-01,West,Influencer & Affiliate,1965.73
+2025-11-01,West,Email & CRM,1106.24
+2025-11-01,Central,Paid Search,1727.25
+2025-11-01,Central,Social Media,1476.33
+2025-11-01,Central,Influencer & Affiliate,892.52
+2025-11-01,Central,Email & CRM,569.78
+2025-11-01,Unknown,Paid Search,543.56
+2025-11-01,Unknown,Social Media,473.53
+2025-11-01,Unknown,Influencer & Affiliate,303.75
+2025-11-01,Unknown,Email & CRM,165.06
+2025-12-01,North,Paid Search,4055.15
+2025-12-01,North,Social Media,3391.87
+2025-12-01,North,Influencer & Affiliate,2134.64
+2025-12-01,North,Email & CRM,1308.98
+2025-12-01,South,Paid Search,5057.65
+2025-12-01,South,Social Media,4169.41
+2025-12-01,South,Influencer & Affiliate,2538.7
+2025-12-01,South,Email & CRM,1665.99
+2025-12-01,East,Paid Search,2178.99
+2025-12-01,East,Social Media,1775.43
+2025-12-01,East,Influencer & Affiliate,1130.3
+2025-12-01,East,Email & CRM,734.08
+2025-12-01,West,Paid Search,2952.94
+2025-12-01,West,Social Media,2283.68
+2025-12-01,West,Influencer & Affiliate,1609.17
+2025-12-01,West,Email & CRM,949.12
+2025-12-01,Central,Paid Search,2173.85
+2025-12-01,Central,Social Media,1740.84
+2025-12-01,Central,Influencer & Affiliate,1154.56
+2025-12-01,Central,Email & CRM,616.69
+2025-12-01,Unknown,Paid Search,563.79
+2025-12-01,Unknown,Social Media,496.21
+2025-12-01,Unknown,Influencer & Affiliate,338.83
+2025-12-01,Unknown,Email & CRM,189.45
