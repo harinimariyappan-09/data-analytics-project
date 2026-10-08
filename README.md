@@ -38,3 +38,16 @@ Install: `pip install pandas numpy matplotlib jupyter`. Keep the CSV files in th
 | First-order discount improves 180-day retention | Chi-square | No effect: 47.6% vs 47.5%, p = 0.96 |
 
 **Top findings:** Q4 seasonality (+44%); Electronics is 32% of revenue but 22.6% of profit; discounts cut margin from 38.5% to 21.6% without lifting order size or retention; all 27 loss-making orders are Electronics at 20-25% discount; only 81% of orders become revenue.
+## Task 5: Interactive Dashboard & KPI Visualizations
+
+**Live app:** https://YOUR-APP-NAME.streamlit.app  |  **PDF export:** [Dashboard_Export.pdf](Dashboard_Export.pdf)
+
+Streamlit + Plotly dashboard on the cleaned orders from Task 3: headline KPIs (Revenue, AOV, CAC, Churn) with sparklines and period-over-period change, area trend chart, India regional heatmap, customer acquisition and churn charts, and a category-to-product sunburst.
+
+- **Slicers:** period, region, category, payment method
+- **Drill-down:** Year → Quarter → Month → Day (trend), Category → Product (sunburst)
+- **Files:** `app.py` (UI), `dashboard_metrics.py` (KPI engine shared with the PDF), `build_dashboard_pdf.py` (PDF export)
+
+**Data notes:** the dataset is synthetic. Marketing spend (`marketing_spend.csv`) is illustrative because the orders data has no spend; replace it with real spend and CAC updates automatically.
+
+**Run locally:** `pip install -r requirements.txt` then `streamlit run app.py`
